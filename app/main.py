@@ -6,6 +6,6 @@ def main(argv):
     # Edit and remove this code as you like.
     out = "Hello!"
     if argv:
-        out += " "+argv
+        out += " "+argv[0]
     print(out)
     return
