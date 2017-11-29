@@ -5,7 +5,7 @@ def main(argv):
     # This is a sample code to use arguments and outputs.
     # Edit and remove this code as you like.
     out = "Hello"
-    if argv:
+    if argv[0] != "":
         out += " "+argv[0]+"!"
     else:
         out += "!"
