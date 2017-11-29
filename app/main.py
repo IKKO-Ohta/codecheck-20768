@@ -4,5 +4,8 @@ def main(argv):
     # ---
     # This is a sample code to use arguments and outputs.
     # Edit and remove this code as you like.
-    print("Hello World")
+    out = "Hello!"
+    if argv:
+        out += " "+argv
+    print(out)
     return
